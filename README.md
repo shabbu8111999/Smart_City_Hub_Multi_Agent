@@ -54,6 +54,7 @@ pip install -r requirements.txt
 
 #### 3. Utility Agent Handles (smartCity/agents/utility_agent.py)
 It is meant for Public Servant such as:
+
 💡 Electricity (e.g., "Why is there a power cut?")
 
 🚰 Water supply (e.g., "When will the water be restored?")
