@@ -1,4 +1,39 @@
-# Smart_City_Hub_Multi_Agent
+# Smart Support Hub – A Multi-Agent AI Helpdesk
+
+
+## 🧠 Concept:
+
+### Simulate a small organization of AI agents, like a customer support team for a smart city dashboard or a tech company.
+
+### Each agent has a defined role (like in a swarm or human team), and together they solve incoming user queries collaboratively.
+
+
+
+## 🔗 Tools and Technologies:
+
+
+| Purpose	            |    Tool                        |
+|-----------------------|--------------------------------|
+| Agent                 |  framework LangChain           |
+| Multi-agent workflows	|  LangGraph                     |
+| Debugging/tracing	    |  LangSmith                     |   
+| UI (optional)	        |  Streamlit / Flask             |
+| LLM backend	        |  OpenAI / Ollama / Local model |
+
+
+
+## 🧩 Project Architecture: AI Agent Team
+### Each agent is a LangChain tool or LangGraph node.
+
+
+| Agent Name                | Responsibility                                          
+| ------------------------- | ------------------------------------------------------- 
+| 🧾 Query Classifier Agent | Decides the type of user query (traffic, power, health) |
+| 🚦 Traffic Support Agent  | Answers traffic-related queries                         |
+| 🏥 Health Support Agent   | Handles hospital/healthcare questions                   |
+| ⚡ Utility Agent          | Answers power/water queries                             |
+| 🧠 Planner Agent          | Coordinates multi-agent actions if query is complex     |
+
 
 
 ## Steps that I used for this project enironment to setup
