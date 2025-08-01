@@ -40,9 +40,9 @@ def classify_query(query: str) -> str:
 # Runnable version (if needed in LangGraph)
 classifier_runnable = RunnableLambda(lambda input: {"category": classify_query(input["query"])})
 
+'''
 # Just a test
 if __name__ == "__main__":
     test_query = "There's heavy traffic on Main Street. Any updates?"
     print("Detected category:", classify_query(test_query))
-
-    
+'''

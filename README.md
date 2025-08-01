@@ -103,3 +103,19 @@ It is meant for Public Servant such as:
 🗂️ Classifies into: health, traffic, pollution, utilities, or unknown.
 
 🔁 Helps in routing the query to the correct agent.
+
+
+#### 5. Planner Agent Handles (smartCity/agents/planner_agent.py)
+📋 Generates a step-by-step plan for city-related problems.
+
+🧭 Assists in operational planning for reported issues.
+
+🔄 Can be chained with classifier for automatic delegation.
+
+
+#### 6. Executor Agent Handles (smartCity/agents/executor_agent.py)
+✅ Executes each plan step by simulating the task outcome.
+
+✅ Converts task instructions into clear, formal action confirmations.
+
+✅ Provides short responses without repeating the input step.
