@@ -119,3 +119,11 @@ It is meant for Public Servant such as:
 ✅ Converts task instructions into clear, formal action confirmations.
 
 ✅ Provides short responses without repeating the input step.
+
+
+#### 7. Pollution Agent Handles (smartCity/agents/pollution_agent.py)
+🚨 Monitors pollution levels and triggers health alerts.
+
+🛑 Recommends actions like restricting outdoor activities.
+
+🔁 Advises on increasing air quality monitoring measures.
