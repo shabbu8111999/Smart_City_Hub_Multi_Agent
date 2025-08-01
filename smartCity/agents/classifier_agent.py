@@ -38,7 +38,7 @@ def classify_query(query: str) -> str:
     return response.content.strip().lower()
 
 # Runnable version (if needed in LangGraph)
-classifier_runnable = RunnableLambda(lambda input: {"category": classify_query(input["query"])})
+classifier_runnable = RunnableLambda(lambda state: {"category": classify_query(state.input)})
 
 '''
 # Just a test
