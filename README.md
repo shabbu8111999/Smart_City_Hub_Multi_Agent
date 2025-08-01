@@ -95,3 +95,11 @@ It is meant for Public Servant such as:
 🚰 Water supply (e.g., "When will the water be restored?")
 
 ♻️ Waste management (e.g., "How is garbage collected in Zone B?")
+
+
+#### 4. Classifier Agent Handles (smartCity/agents/classifier_agent.py)
+🧠 Detects the intent of the user's query.
+
+🗂️ Classifies into: health, traffic, pollution, utilities, or unknown.
+
+🔁 Helps in routing the query to the correct agent.
